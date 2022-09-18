@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
       <main className="mx-auto max-w-xs md:max-w-xl bg-neutral-dark-grayish-blue flex flex-col min-w-xs p-4 mt-4 rounded-xl relative">
         <h3 className="text-primary-neon m-4 text-xs tracking-widest">ADVICE #{advice?.id}</h3>
-        <h2 className="text-primary-cyan mt-6 text-2xl">"{advice?.advice}"</h2>
+        <h2 className="text-primary-cyan mt-6 text-2xl">&quot;{advice?.advice}&quot;</h2>
         <div className="relative flex py-5 items-center text-primary-cyan mt-6 mb-4">
           <div className="flex-grow border-t border-opacity-40 border-primary-cyan w-5/12"></div>
           <svg viewBox="212 0 20 16" height="16" className={`w-2/12 m-auto ${isLoading ? 'animate-spin' : ''}`}>
